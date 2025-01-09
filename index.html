@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Tienda de ropa Online</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Luxe</h1>
+        <nav>
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="#gallery">Galería</a></li>
+                <li><a href="#Ofert">Ofertas</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="animated-text">
+            <p class="text1">Ing.Javier</p>
+            <p class="text2">Diseñador y desarrollador web</p>
+        </div>
+    </main>
+
+    <section id="gallery">
+        <div class="buttons">
+            <button onclick="filterSelection('all')"> Mostrar todo</button>
+            <button onclick="filterSelection('category1')"> Categoria 1</button>
+            <button onclick="filterSelection('category2')"> Categoria 2</button>
+            <button onclick="filterSelection('category3')"> Categoria 3</button>
+        </div>
+        <div class="images">
+            <div class="filterDiv category1"><img src="images/img1.jpg" alt="Imagen 1"></div>
+            <div class="filterDiv category2"><img src="images/img2.jpg" alt="Imagen 2"></div>
+            <div class="filterDiv category3"><img src="images/img3.jpg" alt="Imagen 3"></div>
+            <div class="filterDiv category1"><img src="images/img4.jpg" alt="Imagen 4"></div>
+            <div class="filterDiv category2"><img src="images/img5.jpg" alt="Imagen 5"></div>
+            <div class="filterDiv category3"><img src="images/img6.jpg" alt="Imagen 6"></div>
+        </div>
+    </section>
+
+    <section id="Ofert">
+        <h2>Ofertas</h2>
+        <div class="oferts">
+            <div class="ofert">
+                <div class="card">
+                    <div class="card-img">
+                        <div class="img"></div>
+                    </div>
+                    <div class="card-title">Product title</div>
+                    <div class="card-subtitle">Product description. Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit.</div>
+                    <hr class="card-divider">
+                    <div class="card-footer">
+                        <div class="card-price"><span>$</span> 123.45</div>
+                        <button class="cartBtn">
+                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7h-1M8 7h-.688M13 5v4m-2-2h4"/>
+                              </svg>                              
+                            ADD TO CART
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="ofert">
+                <div class="card">
+                    <div class="card-img">
+                        <div class="img"></div>
+                    </div>
+                    <div class="card-title">Product title</div>
+                    <div class="card-subtitle">Product description. Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit.</div>
+                    <hr class="card-divider">
+                    <div class="card-footer">
+                        <div class="card-price"><span>$</span> 123.45</div>
+                        <button class="cartBtn">
+                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7h-1M8 7h-.688M13 5v4m-2-2h4"/>
+                              </svg>                              
+                            ADD TO CART
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="ofert">
+                <div class="card">
+                    <div class="card-img">
+                        <div class="img"></div>
+                    </div>
+                    <div class="card-title">Product title</div>
+                    <div class="card-subtitle">Product description. Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit.</div>
+                    <hr class="card-divider">
+                    <div class="card-footer">
+                        <div class="card-price"><span>$</span> 123.45</div>
+                        <button class="cartBtn">
+                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7h-1M8 7h-.688M13 5v4m-2-2h4"/>
+                              </svg>                              
+                            ADD TO CART
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
